@@ -1,1 +1,1 @@
-# Mimas_V2_FPGA_-Projects
+# Mimas_V2_FPGA_Projects

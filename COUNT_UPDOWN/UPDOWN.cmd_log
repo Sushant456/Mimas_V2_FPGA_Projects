@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/COUNT_UPDOWN/UPDOWN.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/COUNT_UPDOWN/UPDOWN.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/COUNT_UPDOWN/UPDOWN.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/COUNT_UPDOWN/UPDOWN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UPDOWN.ucf -p xc6slx9-csg324-3 UPDOWN.ngc UPDOWN.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UPDOWN_map.ncd UPDOWN.ngd UPDOWN.pcf 
+par -w -intstyle ise -ol high -mt off UPDOWN_map.ncd UPDOWN.ncd UPDOWN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UPDOWN.twx UPDOWN.ncd -o UPDOWN.twr UPDOWN.pcf -ucf UPDOWN.ucf 
+bitgen -intstyle ise -f UPDOWN.ut UPDOWN.ncd 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/COUNT_UPDOWN/UPDOWN.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/COUNT_UPDOWN/UPDOWN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UPDOWN.ucf -p xc6slx9-csg324-3 UPDOWN.ngc UPDOWN.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UPDOWN_map.ncd UPDOWN.ngd UPDOWN.pcf 
+par -w -intstyle ise -ol high -mt off UPDOWN_map.ncd UPDOWN.ncd UPDOWN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UPDOWN.twx UPDOWN.ncd -o UPDOWN.twr UPDOWN.pcf -ucf UPDOWN.ucf 
+bitgen -intstyle ise -f UPDOWN.ut UPDOWN.ncd 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/COUNT_UPDOWN/UPDOWN.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/COUNT_UPDOWN/UPDOWN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UPDOWN.ucf -p xc6slx9-csg324-3 UPDOWN.ngc UPDOWN.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UPDOWN_map.ncd UPDOWN.ngd UPDOWN.pcf 
+par -w -intstyle ise -ol high -mt off UPDOWN_map.ncd UPDOWN.ncd UPDOWN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UPDOWN.twx UPDOWN.ncd -o UPDOWN.twr UPDOWN.pcf -ucf UPDOWN.ucf 
+bitgen -intstyle ise -f UPDOWN.ut UPDOWN.ncd 

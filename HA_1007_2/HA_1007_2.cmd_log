@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/HA_1007_2/HA_1007_2.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/HA_1007_2/HA_1007_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-3 HA_1007_2.ngc HA_1007_2.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o HA_1007_2_map.ncd HA_1007_2.ngd HA_1007_2.pcf 
+par -w -intstyle ise -ol high -mt off HA_1007_2_map.ncd HA_1007_2.ncd HA_1007_2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml HA_1007_2.twx HA_1007_2.ncd -o HA_1007_2.twr HA_1007_2.pcf 
+bitgen -intstyle ise -f HA_1007_2.ut HA_1007_2.ncd 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/HA_1007_2/HA_1007_2.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/HA_1007_2/HA_1007_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc HA_1007_2.ucf -p xc6slx9-csg324-3 HA_1007_2.ngc HA_1007_2.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o HA_1007_2_map.ncd HA_1007_2.ngd HA_1007_2.pcf 
+par -w -intstyle ise -ol high -mt off HA_1007_2_map.ncd HA_1007_2.ncd HA_1007_2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml HA_1007_2.twx HA_1007_2.ncd -o HA_1007_2.twr HA_1007_2.pcf -ucf HA_1007_2.ucf 
+bitgen -intstyle ise -f HA_1007_2.ut HA_1007_2.ncd 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/HA_1007_2/HA_1007_2.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/HA_1007_2/HA_1007_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc HA_1007_2.ucf -p xc6slx9-csg324-3 HA_1007_2.ngc HA_1007_2.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o HA_1007_2_map.ncd HA_1007_2.ngd HA_1007_2.pcf 
+par -w -intstyle ise -ol high -mt off HA_1007_2_map.ncd HA_1007_2.ncd HA_1007_2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml HA_1007_2.twx HA_1007_2.ncd -o HA_1007_2.twr HA_1007_2.pcf -ucf HA_1007_2.ucf 
+bitgen -intstyle ise -f HA_1007_2.ut HA_1007_2.ncd 

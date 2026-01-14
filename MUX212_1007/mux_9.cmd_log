@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/MUX212_1007/mux_9.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/MUX212_1007/mux_9.syr" 

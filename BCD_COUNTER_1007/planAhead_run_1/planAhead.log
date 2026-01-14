@@ -1,0 +1,92 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Jan 05 10:27:50 2023
+# Process ID: 4192
+# Log file: C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1619 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/pa.fromNcd.tcl
+# create_project -name BCD_COUNTER_1007 -dir "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/planAhead_run_1" -part xc6slx9csg324-3
+# set srcset [get_property srcset [current_run -impl]]
+# set_property design_mode GateLvl $srcset
+# set_property edif_top_file "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007} }
+# set_property target_constrs_file "BCD_COUNTER.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.ucf' to fileset 'constrs_1'
+# add_files [list {BCD_COUNTER.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx9csg324-3
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design BCD_COUNTER.ngc ...
+WARNING:NetListWriters:298 - No output is written to BCD_COUNTER.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file BCD_COUNTER.edif ...
+ngc2edif: Total memory usage is 4314832 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/BCD_COUNTER_1007.data/cache/BCD_COUNTER_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/BCD_COUNTER_1007.data/cache/BCD_COUNTER_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.ucf]
+Finished Parsing UCF File [C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 1 instances
+
+Phase 0 | Netlist Checksum: bf66f121
+link_design: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 618.934 ; gain = 173.672
+# read_xdl -file "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.ncd"
+Release 14.7 - xdl P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+WARNING:XDL:213 - The resulting xdl output will not have LUT equation strings or RAM INIT strings.
+Loading device for application Rf_Device from file '6slx9.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+   "BCD_COUNTER" is an NCD, version 3.2, device xc6slx9, package csg324, speed -3
+Successfully converted design 'C:\Users\admin\Desktop\FPGASDP_120A1107\BCD_COUNTER_1007\BCD_COUNTER.ncd' to 'C:\Users\admin\Desktop\FPGASDP_120A1107\BCD_COUNTER_1007\BCD_COUNTER.xdl'.
+INFO: [Designutils 20-669] Parsing Placement File : C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.ncd
+WARNING: [Designutils 20-665] Net Name: s. Found in file: C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.ncd. Not Recognizable in the Context
+INFO: [Designutils 20-658] Finished Parsing Placement File : C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.ncd
+INFO: [Designutils 20-671] Placed 93 instances
+# if {[catch {read_twx -name results_1 -file "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.twx"} eInfo]} {
+#    puts "WARNING: there was a problem importing \"C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.twx\": $eInfo"
+# }
+INFO: [Timing 38-71] No path element with name divider<4>_rt found. It will be ignored.
+INFO: [Timing 38-71] No path element with name divider<3>_rt found. It will be ignored.
+INFO: [Timing 38-71] No path element with name divider<4>_rt found. It will be ignored.
+INFO: [Timing 38-71] No path element with name divider<3>_rt found. It will be ignored.
+INFO: [Timing 38-71] No path element with name divider<4>_rt found. It will be ignored.
+INFO: [Timing 38-71] No path element with name divider<3>_rt found. It will be ignored.
+INFO: [Timing 38-71] No path element with name divider<1>_rt found. It will be ignored.
+INFO: [Timing 38-71] No path element with name divider<5>_rt found. It will be ignored.
+INFO: [Timing 38-71] No path element with name divider<9>_rt found. It will be ignored.
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007\planAhead_pid4192.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Jan 05 10:31:34 2023...
+INFO: [Common 17-83] Releasing license: PlanAhead

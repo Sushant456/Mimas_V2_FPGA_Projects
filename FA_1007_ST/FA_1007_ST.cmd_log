@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/FA_1007_ST/FA_1007_ST.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/FA_1007_ST/FA_1007_ST.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FA_1007.ucf -p xc6slx9-csg324-3 FA_1007_ST.ngc FA_1007_ST.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FA_1007_ST_map.ncd FA_1007_ST.ngd FA_1007_ST.pcf 
+par -w -intstyle ise -ol high -mt off FA_1007_ST_map.ncd FA_1007_ST.ncd FA_1007_ST.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FA_1007_ST.twx FA_1007_ST.ncd -o FA_1007_ST.twr FA_1007_ST.pcf -ucf FA_1007.ucf 
+bitgen -intstyle ise -f FA_1007_ST.ut FA_1007_ST.ncd 

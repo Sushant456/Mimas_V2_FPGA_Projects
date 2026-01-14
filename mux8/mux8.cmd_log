@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A2004/mux8/mux8.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A2004/mux8/mux8.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A2004/mux8/mux8.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A2004/mux8/mux8.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A2004/mux8/mux8.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A2004/mux8/mux8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux8.ucf -p xc6slx9-csg324-3 mux8.ngc mux8.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mux8_map.ncd mux8.ngd mux8.pcf 
+par -w -intstyle ise -ol high -mt off mux8_map.ncd mux8.ncd mux8.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mux8.twx mux8.ncd -o mux8.twr mux8.pcf -ucf mux8.ucf 
+bitgen -intstyle ise -f mux8.ut mux8.ncd 
+bitgen -intstyle ise -f mux8.ut mux8.ncd 

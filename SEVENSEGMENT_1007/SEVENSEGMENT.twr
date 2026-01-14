@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml SEVENSEGMENT.twx SEVENSEGMENT.ncd -o SEVENSEGMENT.twr
+SEVENSEGMENT.pcf -ucf SEVENSEGMENT_1007.ucf
+
+Design file:              SEVENSEGMENT.ncd
+Physical constraint file: SEVENSEGMENT.pcf
+Device,package,speed:     xc6slx9,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+inp<0>         |SevenSegment<0>|    8.847|
+inp<0>         |SevenSegment<1>|    8.742|
+inp<0>         |SevenSegment<2>|    8.863|
+inp<0>         |SevenSegment<3>|    8.836|
+inp<0>         |SevenSegment<4>|    8.356|
+inp<0>         |SevenSegment<5>|    8.849|
+inp<0>         |SevenSegment<6>|    8.500|
+inp<1>         |SevenSegment<0>|    8.786|
+inp<1>         |SevenSegment<1>|    8.187|
+inp<1>         |SevenSegment<2>|    8.411|
+inp<1>         |SevenSegment<3>|    8.775|
+inp<1>         |SevenSegment<4>|    8.404|
+inp<1>         |SevenSegment<5>|    8.397|
+inp<1>         |SevenSegment<6>|    8.548|
+inp<2>         |SevenSegment<0>|    8.676|
+inp<2>         |SevenSegment<1>|    8.185|
+inp<2>         |SevenSegment<2>|    8.251|
+inp<2>         |SevenSegment<3>|    8.665|
+inp<2>         |SevenSegment<4>|    8.285|
+inp<2>         |SevenSegment<5>|    8.237|
+inp<2>         |SevenSegment<6>|    8.429|
+inp<3>         |SevenSegment<0>|    8.560|
+inp<3>         |SevenSegment<1>|    8.137|
+inp<3>         |SevenSegment<2>|    8.456|
+inp<3>         |SevenSegment<3>|    8.549|
+inp<3>         |SevenSegment<4>|    8.232|
+inp<3>         |SevenSegment<5>|    8.442|
+inp<3>         |SevenSegment<6>|    8.376|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Jan 05 11:09:45 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4549 MB
+
+
+

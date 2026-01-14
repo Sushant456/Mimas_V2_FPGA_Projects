@@ -1,0 +1,22 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Jan 04 11:43:42 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "s<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "s<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "s<2>" LOCATE = SITE "P16" LEVEL 1;
+COMP "s<3>" LOCATE = SITE "P15" LEVEL 1;
+COMP "a<0>" LOCATE = SITE "C17" LEVEL 1;
+COMP "a<1>" LOCATE = SITE "C18" LEVEL 1;
+COMP "a<2>" LOCATE = SITE "D17" LEVEL 1;
+COMP "a<3>" LOCATE = SITE "D18" LEVEL 1;
+COMP "cout" LOCATE = SITE "U17" LEVEL 1;
+COMP "b<0>" LOCATE = SITE "E18" LEVEL 1;
+COMP "b<1>" LOCATE = SITE "E16" LEVEL 1;
+COMP "b<2>" LOCATE = SITE "F18" LEVEL 1;
+COMP "b<3>" LOCATE = SITE "F17" LEVEL 1;
+COMP "c" LOCATE = SITE "M18" LEVEL 1;
+SCHEMATIC END;
+

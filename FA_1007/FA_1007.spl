@@ -1,0 +1,11 @@
+[Inputs]
+a
+b
+c
+[Outputs]
+s
+cout
+[BiDir]
+[ATTRIBUTES]
+VeriModel FA_1007
+

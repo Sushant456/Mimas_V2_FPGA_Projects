@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/COMPARATOR_1007/COMPARATOR_1007.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/COMPARATOR_1007/COMPARATOR_1007.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/COMPARATOR_1007/COMPARATOR_1007.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/COMPARATOR_1007/COMPARATOR_1007.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-3 COMPARATOR_1007.ngc COMPARATOR_1007.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o COMPARATOR_1007_map.ncd COMPARATOR_1007.ngd COMPARATOR_1007.pcf 
+par -w -intstyle ise -ol high -mt off COMPARATOR_1007_map.ncd COMPARATOR_1007.ncd COMPARATOR_1007.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml COMPARATOR_1007.twx COMPARATOR_1007.ncd -o COMPARATOR_1007.twr COMPARATOR_1007.pcf 
+bitgen -intstyle ise -f COMPARATOR_1007.ut COMPARATOR_1007.ncd 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/COMPARATOR_1007/COMPARATOR_1007.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/COMPARATOR_1007/COMPARATOR_1007.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc COMPARATOR_1007.ucf -p xc6slx9-csg324-3 COMPARATOR_1007.ngc COMPARATOR_1007.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o COMPARATOR_1007_map.ncd COMPARATOR_1007.ngd COMPARATOR_1007.pcf 
+par -w -intstyle ise -ol high -mt off COMPARATOR_1007_map.ncd COMPARATOR_1007.ncd COMPARATOR_1007.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml COMPARATOR_1007.twx COMPARATOR_1007.ncd -o COMPARATOR_1007.twr COMPARATOR_1007.pcf -ucf COMPARATOR_1007.ucf 
+bitgen -intstyle ise -f COMPARATOR_1007.ut COMPARATOR_1007.ncd 

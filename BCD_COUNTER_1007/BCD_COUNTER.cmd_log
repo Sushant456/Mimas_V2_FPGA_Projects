@@ -1,0 +1,47 @@
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-3 BCD_COUNTER.ngc BCD_COUNTER.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BCD_COUNTER_map.ncd BCD_COUNTER.ngd BCD_COUNTER.pcf 
+par -w -intstyle ise -ol high -mt off BCD_COUNTER_map.ncd BCD_COUNTER.ncd BCD_COUNTER.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BCD_COUNTER.twx BCD_COUNTER.ncd -o BCD_COUNTER.twr BCD_COUNTER.pcf 
+bitgen -intstyle ise -f BCD_COUNTER.ut BCD_COUNTER.ncd 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-3 BCD_COUNTER.ngc BCD_COUNTER.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BCD_COUNTER_map.ncd BCD_COUNTER.ngd BCD_COUNTER.pcf 
+par -w -intstyle ise -ol high -mt off BCD_COUNTER_map.ncd BCD_COUNTER.ncd BCD_COUNTER.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BCD_COUNTER.twx BCD_COUNTER.ncd -o BCD_COUNTER.twr BCD_COUNTER.pcf 
+bitgen -intstyle ise -f BCD_COUNTER.ut BCD_COUNTER.ncd 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-3 BCD_COUNTER.ngc BCD_COUNTER.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BCD_COUNTER_map.ncd BCD_COUNTER.ngd BCD_COUNTER.pcf 
+par -w -intstyle ise -ol high -mt off BCD_COUNTER_map.ncd BCD_COUNTER.ncd BCD_COUNTER.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BCD_COUNTER.twx BCD_COUNTER.ncd -o BCD_COUNTER.twr BCD_COUNTER.pcf 
+bitgen -intstyle ise -f BCD_COUNTER.ut BCD_COUNTER.ncd 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_COUNTER.ucf -p xc6slx9-csg324-3 BCD_COUNTER.ngc BCD_COUNTER.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BCD_COUNTER_map.ncd BCD_COUNTER.ngd BCD_COUNTER.pcf 
+par -w -intstyle ise -ol high -mt off BCD_COUNTER_map.ncd BCD_COUNTER.ncd BCD_COUNTER.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BCD_COUNTER.twx BCD_COUNTER.ncd -o BCD_COUNTER.twr BCD_COUNTER.pcf -ucf BCD_COUNTER.ucf 
+bitgen -intstyle ise -f BCD_COUNTER.ut BCD_COUNTER.ncd 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/BCD_COUNTER_1007/BCD_COUNTER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_COUNTER.ucf -p xc6slx9-csg324-3 BCD_COUNTER.ngc BCD_COUNTER.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BCD_COUNTER_map.ncd BCD_COUNTER.ngd BCD_COUNTER.pcf 
+par -w -intstyle ise -ol high -mt off BCD_COUNTER_map.ncd BCD_COUNTER.ncd BCD_COUNTER.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BCD_COUNTER.twx BCD_COUNTER.ncd -o BCD_COUNTER.twr BCD_COUNTER.pcf -ucf BCD_COUNTER.ucf 
+bitgen -intstyle ise -f BCD_COUNTER.ut BCD_COUNTER.ncd 

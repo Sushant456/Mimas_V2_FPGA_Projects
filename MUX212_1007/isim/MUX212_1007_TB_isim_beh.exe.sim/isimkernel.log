@@ -1,0 +1,10 @@
+Command line:
+   MUX212_1007_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51238
+
+Tue Jan 03 14:39:54 2023
+
+
+ Elaboration Time: 0.015625 sec

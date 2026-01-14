@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/CANDY_1007/CANDY_1007.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/CANDY_1007/CANDY_1007.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/CANDY_1007/CANDY_1007.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/CANDY_1007/CANDY_1007.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/CANDY_1007/CANDY_1007.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/CANDY_1007/CANDY_1007.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/CANDY_1007/CANDY_1007.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/CANDY_1007/CANDY_1007.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-3 CANDY_1007.ngc CANDY_1007.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CANDY_1007_map.ncd CANDY_1007.ngd CANDY_1007.pcf 
+par -w -intstyle ise -ol high -mt off CANDY_1007_map.ncd CANDY_1007.ncd CANDY_1007.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CANDY_1007.twx CANDY_1007.ncd -o CANDY_1007.twr CANDY_1007.pcf 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/CANDY_1007/CANDY_1007.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/CANDY_1007/CANDY_1007.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CANDY_1007.ucf -p xc6slx9-csg324-3 CANDY_1007.ngc CANDY_1007.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CANDY_1007_map.ncd CANDY_1007.ngd CANDY_1007.pcf 
+par -w -intstyle ise -ol high -mt off CANDY_1007_map.ncd CANDY_1007.ncd CANDY_1007.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CANDY_1007.twx CANDY_1007.ncd -o CANDY_1007.twr CANDY_1007.pcf -ucf CANDY_1007.ucf 
+bitgen -intstyle ise -f CANDY_1007.ut CANDY_1007.ncd 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/CANDY_1007/CANDY_1007.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/CANDY_1007/CANDY_1007.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CANDY_1007.ucf -p xc6slx9-csg324-3 CANDY_1007.ngc CANDY_1007.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CANDY_1007_map.ncd CANDY_1007.ngd CANDY_1007.pcf 
+par -w -intstyle ise -ol high -mt off CANDY_1007_map.ncd CANDY_1007.ncd CANDY_1007.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CANDY_1007.twx CANDY_1007.ncd -o CANDY_1007.twr CANDY_1007.pcf -ucf CANDY_1007.ucf 
+bitgen -intstyle ise -f CANDY_1007.ut CANDY_1007.ncd 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/CANDY_1007/CANDY_1007.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/CANDY_1007/CANDY_1007.syr" 

@@ -1,0 +1,29 @@
+Command line:
+   CANDY_1007_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59792
+
+Fri Jan 06 14:59:21 2023
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5160.64 Meg
+
+ Total Signals          : 19
+ Total Nets             : 24
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 17
+ Total Traceable Variables  : 30
+ Total Scalar Nets and Variables : 159
+Total Line Count : 59
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 5003.35 Meg
+
+Fri Jan 06 15:01:18 2023
+

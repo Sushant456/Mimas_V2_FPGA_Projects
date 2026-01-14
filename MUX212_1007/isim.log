@@ -1,0 +1,22 @@
+ISim log file
+Running: C:\Users\admin\Desktop\FPGASDP_120A1107\MUX212_1007\MUX212_1007_TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/admin/Desktop/FPGASDP_120A1107/MUX212_1007/MUX212_1007_TB_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                   0i[0]=0 ,i[1]=0, s=0, y=0
+                   5i[0]=0 ,i[1]=1, s=0, y=0
+                  10i[0]=1 ,i[1]=0, s=0, y=1
+                  15i[0]=1 ,i[1]=1, s=0, y=1
+                  20i[0]=0 ,i[1]=0, s=1, y=0
+                  25i[0]=0 ,i[1]=1, s=1, y=1
+                  30i[0]=1 ,i[1]=0, s=1, y=0
+                  35i[0]=1 ,i[1]=1, s=1, y=1
+The simulator has terminated in an unexpected manner.  Please review the ISim log (isim.log) for details.

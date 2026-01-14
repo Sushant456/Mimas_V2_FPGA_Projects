@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/DEC_1007/DEC_1007.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/DEC_1007/DEC_1007.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/DEC_1007/DEC_1007.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/DEC_1007/DEC_1007.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/DEC_1007/DEC_1007.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/DEC_1007/DEC_1007.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/DEC_1007/DEC_1007.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/DEC_1007/DEC_1007.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/DEC_1007/DEC_1007.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/DEC_1007/DEC_1007.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/DEC_1007/DEC_1007.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/DEC_1007/DEC_1007.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/DEC_1007/DEC_1007.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/DEC_1007/DEC_1007.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DEC_1007.ucf -p xc6slx9-csg324-3 DEC_1007.ngc DEC_1007.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEC_1007_map.ncd DEC_1007.ngd DEC_1007.pcf 
+par -w -intstyle ise -ol high -mt off DEC_1007_map.ncd DEC_1007.ncd DEC_1007.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEC_1007.twx DEC_1007.ncd -o DEC_1007.twr DEC_1007.pcf -ucf DEC_1007.ucf 
+bitgen -intstyle ise -f DEC_1007.ut DEC_1007.ncd 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/FPGASDP_120A1107/DEC_1007/DEC_1007.xst" -ofn "C:/Users/admin/Desktop/FPGASDP_120A1107/DEC_1007/DEC_1007.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DEC_1007.ucf -p xc6slx9-csg324-3 DEC_1007.ngc DEC_1007.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DEC_1007_map.ncd DEC_1007.ngd DEC_1007.pcf 
+par -w -intstyle ise -ol high -mt off DEC_1007_map.ncd DEC_1007.ncd DEC_1007.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DEC_1007.twx DEC_1007.ncd -o DEC_1007.twr DEC_1007.pcf -ucf DEC_1007.ucf 
+bitgen -intstyle ise -f DEC_1007.ut DEC_1007.ncd 

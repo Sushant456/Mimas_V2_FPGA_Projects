@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/admin/Desktop/FPGASDP_120A1107/FS_1007/FS_1007_TB_isim_beh.exe" -prj "C:/Users/admin/Desktop/FPGASDP_120A1107/FS_1007/FS_1007_TB_beh.prj" "work.FS_1007_TB" "work.glbl" 

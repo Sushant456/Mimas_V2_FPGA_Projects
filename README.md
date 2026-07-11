@@ -51,46 +51,44 @@ These projects were implemented as part of learning and practicing FPGA-based di
 
 ## 📂 Repository Structure
 
-```text
-Mimas_V2_FPGA_Projects/
-│
-├── UCF.txt                       # FPGA pin constraint reference
-│
-├── HA_1007/                      # Half Adder
-├── HA_1007_2/                    # Half Adder_2
-│
-├── FA_1007/                      # Full Adder
-├── FA_1007_2/                    # Full Adder_2
-├── FA_1007_ST/                   # Structural Full Adder
-│
-├── HS_1007/                      # Half Subtractor
-├── HS_1007_2/                    # Half Subtractor_2
-│
-├── FS_1007/                      # Full Subtractor
-├── FS_1007_2/                    # Full Subtractor_2
-│
-├── MUX21_1007/                   # 2:1 Multiplexer
-├── MUX212_1007/                  # 2:1 Multiplexer (variant)
-├── MUX213_1007/                  # 2:1 Multiplexer (variant)
-├── MUX41_1007/                   # 4:1 Multiplexer
-├── mux8/                         # 8:1 Multiplexer
-│
-├── DEC_1007/                     # 2-to-4 Decoder
-├── COMPARATOR_1007/              # Magnitude Comparator
-├── DFF_1007/                     # D Flip-Flop
-│
-├── COUNT_UP_1007/                # Up Counter
-├── COUNT_UPDOWN/                 # Up/Down Counter
-├── BCD_COUNTER_1007/             # BCD Counter
-│
-├── SEVENSEGMENT_1007/            # Seven Segment Display
-├── CANDY_1007/                   # Candy Vending Machine (FSM)
-│
-├── SEQ001_1007/                  # Sequence Detector (001)
-├── SEQ101_1007/                  # Sequence Detector (101)
-└── SEQ1011_1007/                 # Sequence Detector (1011)
-```
-
+Mimas_V2_FPGA_Projects/  
+│  
+├── README.md                     # Repository documentation  
+├── UCF.txt                       # FPGA pin constraint reference  
+│  
+├── HA_1007/                      # Half Adder  
+├── HA_1007_2/                    # Half Adder (alternate implementation)  
+│  
+├── FA_1007/                      # Full Adder  
+├── FA_1007_2/                    # Full Adder (alternate implementation)  
+├── FA_1007_ST/                   # Structural Full Adder  
+│  
+├── HS_1007/                      # Half Subtractor  
+├── HS_1007_2/                    # Half Subtractor (alternate implementation)  
+│  
+├── FS_1007/                      # Full Subtractor  
+├── FS_1007_2/                    # Full Subtractor (alternate implementation)  
+│  
+├── MUX21_1007/                   # 2:1 Multiplexer  
+├── MUX212_1007/                  # 2:1 Multiplexer (variant)  
+├── MUX213_1007/                  # 2:1 Multiplexer (variant)  
+├── MUX41_1007/                   # 4:1 Multiplexer  
+├── mux8/                         # 8:1 Multiplexer  
+│  
+├── DEC_1007/                     # 2-to-4 Decoder  
+├── COMPARATOR_1007/              # Magnitude Comparator  
+├── DFF_1007/                     # D Flip-Flop  
+│  
+├── COUNT_UP_1007/                # Up Counter  
+├── COUNT_UPDOWN/                 # Up/Down Counter  
+├── BCD_COUNTER_1007/             # BCD Counter  
+│  
+├── SEVENSEGMENT_1007/            # Seven Segment Display  
+├── CANDY_1007/                   # Candy Vending Machine (FSM)  
+│  
+├── SEQ001_1007/                  # Sequence Detector (001)  
+├── SEQ101_1007/                  # Sequence Detector (101)  
+└── SEQ1011_1007/                 # Sequence Detector (1011)  
 > **Note:** Each project directory contains the Verilog source files, testbench (where applicable), Xilinx project files, and FPGA constraint (`.ucf`) files required for implementation.
 
 ---
